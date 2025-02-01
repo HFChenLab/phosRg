@@ -1,0 +1,10 @@
+source oldff/leaprc.ff99SBildn
+source leaprc.phosaa10
+source leaprc.water.tip4pd
+#source leaprc.water.tip3pd
+a = sequence {SEP}
+
+savepdb a SEP_gas.pdb
+saveamberparm a SEP_gas.top SEP_gas.crd 
+
+quit
