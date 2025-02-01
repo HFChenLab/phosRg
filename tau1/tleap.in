@@ -1,0 +1,15 @@
+#source leaprc.protein.ff14SB
+#source leaprc.phosaa14SB
+#source leaprc.water.tip3p
+source oldff/leaprc.ff99SBildn
+source leaprc.phosaa10
+source leaprc.water.tip4pd
+
+A = sequence { NASP ALA LYS TPO PRO PRO ALA PRO LYS TPO PRO PRO CGLY }
+#A = loadpdb tau1_sim.pdb
+solvateoct A TIP4PDBOX 10
+addions A Na+ 0
+addions A Cl- 0
+saveamberparm A tau1p1.top tau1p1.crd
+savepdb A tau1p1_sim.pdb
+quit

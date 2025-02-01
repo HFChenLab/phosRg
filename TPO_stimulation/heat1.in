@@ -1,0 +1,8 @@
+ #InitialMDequilibration
+&cntrl
+  imin=0,ntx=1,irest=0,
+  nstlim=250000,dt=0.002,ntc=2,ntf=2,
+  ntpr=500,ntwx=1000,
+  cut=8,ntb=1,igb=0,ntt=3,gamma_ln=2.0,ig=32763,ntp=0,
+  tempi=0,temp0=298.15,tautp=2,
+  /
