@@ -1,0 +1,12 @@
+ #Initial MD equilibration  
+&cntrl
+  imin=0,ntx=5,irest=1,
+  ntb=2,pres0=1.0,ntp=1,taup=2.0,
+  nstlim=500000,
+  dt=0.002,ntc=2,ntf=2,
+  ntpr=500,ntwx=1000,ntwr=1000,
+  cut=10,ntr=0,
+  ntt=3,gamma_ln=2.0,ig=-1,
+  tempi=298.15,temp0=298.15,
+/
+

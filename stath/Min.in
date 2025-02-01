@@ -1,0 +1,11 @@
+ #Minimize
+ &cntrl
+  imin=1,
+  maxcyc=1000,
+  ncyc=500,
+  cut=10,
+  ntb=2,
+  ntp=1,
+  igb=0 
+  /
+

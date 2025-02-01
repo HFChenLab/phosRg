@@ -1,0 +1,11 @@
+source oldff/leaprc.ff99SBildn
+source leaprc.phosaa10
+source leaprc.water.tip4pd
+A = sequence { NASP ASP SEP SEP GLU GLU LYS PHE LEU ARG ARG ILE GLY ARG PHE GLY TYR GLY TYR GLY PRO TYR GLN PRO VAL PRO GLU GLN PRO LEU TYR PRO GLN PRO TYR GLN PRO GLN TYR GLN GLN TYR THR PHE CGLY }
+solvateoct A TIP4PDBOX 10
+addions A Na+ 0
+addions A Cl- 0
+saveamberparm A stath.top stath.crd
+savepdb A stath_sim.pdb
+quit
+
