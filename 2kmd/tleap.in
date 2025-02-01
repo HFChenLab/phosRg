@@ -1,0 +1,12 @@
+source oldff/leaprc.ff99SBildn
+source leaprc.phosaa10
+source leaprc.water.tip4pd
+
+A = loadpdb 2kmd.pdb
+solvateoct A TIP4PDBOX 10
+addions A Na+ 0
+addions A Cl- 0
+saveamberparm A 2kmd1.top 2kmd1.crd
+savepdb A 2kmd_sim1.pdb
+quit
+
