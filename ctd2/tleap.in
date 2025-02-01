@@ -1,0 +1,13 @@
+source oldff/leaprc.ff99SBildn
+source leaprc.phosaa10
+source leaprc.water.tip4pd
+
+A = sequence { NASP PHE ALA GLY SER GLY SER ASN ILE TYR SER PRO GLY ASN ALA TYR SEP PRO SER SER SER ASN TYR SEP PRO ASN SER PRO SER TYR SEP PRO THR SER PRO SER TYR SEP PRO SER SER PRO SEP TYR SER PRO THR SEP PRO CYS TYR SER PRO TYR SEP PRO SER TYR SER PRO THR SEP PRO ASN TYR TPO PRO VAL THR PRO SEP TYR SER PRO THR SEP PRO ASN TYR SER ALA SER PRO GLN CGLY }
+#A = loadpdb tau1_sim.pdb
+solvateoct A TIP4PDBOX 10
+addions A Na+ 0
+addions A Cl- 0
+saveamberparm A ctd.top ctd.crd
+savepdb A ctd_sim.pdb
+quit
+
