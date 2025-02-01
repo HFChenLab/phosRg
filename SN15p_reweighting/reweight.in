@@ -1,0 +1,6 @@
+ #reweightMD
+&cntrl
+  imin=5,
+  ntpr=2000,ntwx=10000,ntwr=20000,
+  cut=10,ntb=2,igb=0,ntp=1,
+/
