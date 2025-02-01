@@ -1,0 +1,14 @@
+#source leaprc.protein.ff14SB
+#source leaprc.phosaa14SB
+#source leaprc.water.tip3p
+source oldff/leaprc.ff99SBildn
+source leaprc.phosaa10
+source leaprc.water.tip4pd
+
+A = loadpdb 2cef.pdb
+solvateoct A TIP4PDBOX 10
+addions A Na+ 0
+addions A Cl- 0
+saveamberparm A 2cef1.top 2cef1.crd
+savepdb A 2cef_sim1.pdb
+quit
