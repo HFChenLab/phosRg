@@ -1,5 +1,5 @@
 # phosRg
-phosRg refined the parameters of Amber phosaa10 as the following: the oxygen atomic radius is 1.7400Å in file frcmod.phosaa10,the phosphorus atomic charge is 1.4600(a.u) in file phos_amino94.lib based on the dual objectives of radius of gyration and solvation free energy. /n
+phosRg refined the parameters of Amber phosaa10 as the following: the oxygen atomic radius is 1.7400Å in file frcmod.phosaa10,the phosphorus atomic charge is 1.4600(a.u) in file phos_amino94.lib based on the dual objectives of radius of gyration and solvation free energy.  
 For details: https://doi.org/10.1021/acs.jcim.4c02248
 # Usage
 phosRg modify the oxygen atomic radius to 1.7400Å in file frcmod.phosaa10,the phosphorus atomic charge to 1.4600(a.u) in file phos_amino94.lib.
