@@ -1,0 +1,14 @@
+source oldff/leaprc.ff99SBildn
+source leaprc.phosaa10
+source leaprc.water.tip4pd
+#source leaprc.water.tip3p
+a = sequence {ACE SEP NME}
+solvateoct a TIP4PDBOX 15
+#solvateoct a TIP4PBOX 10
+#solvateoct a TIP3PBOX 10.8
+
+savepdb a SEP_solv.pdb
+saveamberparm a SEP_solv.top SEP_solv.crd 
+
+quit
+
